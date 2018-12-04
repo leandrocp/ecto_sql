@@ -44,7 +44,8 @@ defmodule EctoSQL.MixProject do
 
   defp deps do
     [
-      {:ecto, "~> 3.0.4", ecto_opts()},
+      # {:ecto, "~> 3.0.4", ecto_opts()},
+      {:ecto, "~> 3.0.4", git: "https://github.com/elixir-ecto/ecto.git"},
       {:telemetry, "~> 0.2.0"},
 
       # Drivers
